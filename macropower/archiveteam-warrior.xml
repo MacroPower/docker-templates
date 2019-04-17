@@ -17,6 +17,13 @@
   <Privileged>false</Privileged>
   <Networking>
     <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8001</HostPort>
+        <ContainerPort>8001</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
   </Networking>
   <Environment>
      <Variable>
@@ -43,7 +50,7 @@
   <Data>
     <Volume>
       <HostDir>/data</HostDir>
-      <ContainerDir>/mnt/cache/appdata/config</ContainerDir>
+      <ContainerDir>/mnt/cache/appdata/warrior</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
