@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <TemplateURL>https://raw.githubusercontent.com/MacroPower/docker-templates/master/macropower/ia-bak.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category>Other</Category>
+  <Name>macropower-ia.bak</Name>
+  <Description>
+  </Description>
+  <Overview>
+  </Overview>
+  <Support></Support>
+  <Registry>https://registry.hub.docker.com/u/macropower/ia.bak/</Registry>
+  <GitHub>https://github.com/MacroPower/IA.BAK</GitHub>
+  <Repository>macropower/ia.bak</Repository>
+  <Project></Project>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+  </Networking>
+  <Environment>
+     <Variable>
+      <Name>EMAIL_ADDRESS</Name>
+      <Value></Value>
+    </Variable>
+    <Variable>
+      <Name>DISK_RESERVED</Name>
+      <Value>1T</Value>
+    </Variable>
+  </Environment>
+  <Data>
+    <Volume>
+      <HostDir>/annex</HostDir>
+      <ContainerDir>/mnt/user/IA.BAK</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI></WebUI>
+  <Banner></Banner>
+  <Icon>https://raw.githubusercontent.com/MacroPower/docker-templates/master/macropower/images/ia-bak.png</Icon>
+  <DonateText></DonateText>
+  <DonateLink></DonateLink>
+  <DonateImg></DonateImg>
+  <ExtraParams>--hostname "YOUR USERNAME HERE"</ExtraParams>
+</Containers>
