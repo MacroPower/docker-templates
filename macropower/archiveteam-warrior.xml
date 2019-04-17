@@ -5,16 +5,28 @@
   <Category>Other</Category>
   <Name>Warrior</Name>
   <Description>
-  TestDescription
+The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the ArchiveTeam archiving efforts. It will download sites and upload them to our archive — and it’s really easy to do!
+[br][b]/data[/b] May grow up to 60GB.
+[br]
+[br][b]Rules:[/b]
+[br]No OpenDNS. No ISP DNS that redirects to a search page. Use non-captive DNS servers.
+[br]No ISP connections that inject advertisements into web pages.
+[br]No proxies. Proxies can return bad data. The original HTTP headers and IP address are needed for the WARC file.
+[br]No content-filtering firewalls.
+[br]No censorship. If you believe your country implements censorship, do not run a warrior.
+[br]No Tor. The server may return an error page instead of content if they ban exit nodes.
+[br]No free cafe wifi. Archiving your cafe's wifi service agreement repeatedly is not helpful.
+[br]No VPNs. Data integrity is a very high priority for the Archive Team so use of VPNs with the official crawler is discouraged.
+[br]We prefer connections from many public IP addresses if possible. (For example, if your apartment building uses a single IP address, we don't want your apartment banned.)
   </Description>
   <Overview>
-  TestOverview
+The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the ArchiveTeam archiving efforts. It will download sites and upload them to our archive — and it’s really easy to do!
   </Overview>
   <Support></Support>
   <Registry>https://hub.docker.com/r/archiveteam/warrior-dockerfile/</Registry>
   <GitHub>https://github.com/ArchiveTeam/warrior-dockerfile</GitHub>
   <Repository>archiveteam/warrior-dockerfile</Repository>
-  <Project></Project>
+  <Project>https://www.archiveteam.org/index.php?title=ArchiveTeam_Warrior</Project>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
@@ -56,7 +68,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI></WebUI>
+  <WebUI>http://[IP]:[PORT:8001]</WebUI>
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/MacroPower/docker-templates/master/macropower/images/archiveteam-warrior.png</Icon>
   <DonateText></DonateText>
