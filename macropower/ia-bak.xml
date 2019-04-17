@@ -5,8 +5,10 @@
   <Category>Other</Category>
   <Name>IA.BAK</Name>
   <Description>
+  TestDescription
   </Description>
   <Overview>
+  TestOverview
   </Overview>
   <Support></Support>
   <Registry>https://registry.hub.docker.com/u/macropower/ia.bak/</Registry>

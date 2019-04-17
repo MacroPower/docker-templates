@@ -5,8 +5,10 @@
   <Category>Other</Category>
   <Name>Warrior</Name>
   <Description>
+  TestDescription
   </Description>
   <Overview>
+  TestOverview
   </Overview>
   <Support></Support>
   <Registry>https://hub.docker.com/r/archiveteam/warrior-dockerfile/</Registry>
@@ -60,5 +62,5 @@
   <DonateText></DonateText>
   <DonateLink></DonateLink>
   <DonateImg></DonateImg>
-  <ExtraParams></ExtraParams>
+  <ExtraParams>--restart always</ExtraParams>
 </Containers>
