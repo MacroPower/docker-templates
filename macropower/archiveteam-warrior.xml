@@ -51,8 +51,8 @@
   </Environment>
   <Data>
     <Volume>
-      <HostDir>/data</HostDir>
-      <ContainerDir>/mnt/cache/appdata/warrior</ContainerDir>
+      <HostDir>/mnt/cache/appdata/warrior</HostDir>
+      <ContainerDir>/data</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>

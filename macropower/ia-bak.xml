@@ -32,8 +32,8 @@
   </Environment>
   <Data>
     <Volume>
-      <HostDir>/annex</HostDir>
-      <ContainerDir>/mnt/user/IA.BAK</ContainerDir>
+      <HostDir>/mnt/user/IA.BAK</HostDir>
+      <ContainerDir>/annex</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
