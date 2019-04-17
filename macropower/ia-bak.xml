@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
   <TemplateURL>https://raw.githubusercontent.com/MacroPower/docker-templates/master/macropower/ia-bak.xml</TemplateURL>
-  <Beta>False</Beta>
+  <Beta>True</Beta>
   <Category>Other</Category>
-  <Name>macropower-ia.bak</Name>
+  <Name>IA.BAK</Name>
   <Description>
   </Description>
   <Overview>
