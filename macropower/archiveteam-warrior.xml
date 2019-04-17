@@ -5,11 +5,11 @@
   <Category>Other</Category>
   <Name>Warrior</Name>
   <Description>
-The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the ArchiveTeam archiving efforts. It will download sites and upload them to our archive — and it’s really easy to do!
-[br][b]/data[/b] May grow up to 60GB.
-[br]
+[h3]Archive Team Warrior[/h3]The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the ArchiveTeam archiving efforts. It will download sites and upload them to our archive — and it’s really easy to do!
+[br][br][b]/data[/b] May grow up to 60GB.
+[br][br]
 [br][b]Rules:[/b]
-[br]No OpenDNS. No ISP DNS that redirects to a search page. Use non-captive DNS servers.
+[br]No OpenDNS. No ISP DNS that redirects to a search page. Use non-captive DNS servers. No ad-blocking DNS servers (aka Pi-Hole).
 [br]No ISP connections that inject advertisements into web pages.
 [br]No proxies. Proxies can return bad data. The original HTTP headers and IP address are needed for the WARC file.
 [br]No content-filtering firewalls.
