@@ -20,7 +20,7 @@ We back up a lot of stuff from around the web; now it's time to back up the Inte
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
-    <Mode>bridge</Mode>
+    <Mode>host</Mode>
   </Networking>
   <Environment>
      <Variable>
