@@ -5,16 +5,18 @@
   <Category>Other</Category>
   <Name>IA.BAK</Name>
   <Description>
-  TestDescription
+[span style='color: #E80000;']You must click Advanced and set a hostname.[/span][br]
+[h3]INTERNETARCHIVE.BAK[/h3]The INTERNETARCHIVE.BAK project (also known as IA.BAK or IABAK) is a combined experiment and research project to back up the Internet Archive's data stores, utilizing zero infrastructure of the Archive itself (save for bandwidth used in download) and, along the way, gain real-world knowledge of what issues and considerations are involved with such a project. Started in April 2015, the project already has dozens of contributors and partners, and has resulted in a fairly robust environment backing up terabytes of the Archive in multiple locations around the world.
+[br]To see the current status of the project's data storage and to learn how you can contribute disk space and bandwidth, visit: http://iabak.archiveteam.org/
   </Description>
   <Overview>
-  TestOverview
+We back up a lot of stuff from around the web; now it's time to back up the Internet Archive, just in case.
   </Overview>
   <Support></Support>
   <Registry>https://registry.hub.docker.com/u/macropower/ia.bak/</Registry>
   <GitHub>https://github.com/MacroPower/IA.BAK</GitHub>
   <Repository>macropower/ia.bak</Repository>
-  <Project></Project>
+  <Project>http://archiveteam.org/index.php?title=INTERNETARCHIVE.BAK/git-annex_implementation</Project>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
