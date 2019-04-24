@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
   <TemplateURL>https://raw.githubusercontent.com/MacroPower/docker-templates/master/macropower/urbackup-server.xml</TemplateURL>
-  <Beta>True</Beta>
-  <Category>Other</Category>
+  <Beta>False</Beta>
+  <Category>Backup</Category>
   <Name>UrBackup</Name>
   <Description>
 [h3]UrBackup[/h3]UrBackup is an easy to setup Open Source client/server backup system, that through a combination of image and file backups accomplishes both data safety and a fast restoration time.
