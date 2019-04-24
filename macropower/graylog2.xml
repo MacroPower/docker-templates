@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <TemplateURL>https://raw.githubusercontent.com/MacroPower/docker-templates/master/macropower/graylog2.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category>Tools, Network:Management</Category>
+  <Name>Graylog2</Name>
+  <Description>
+[h3]Graylog[/h3]Graylog is a leading centralized log management solution built to open standards for capturing, storing, and enabling real-time analysis of terabytes of machine data. We deliver a better user experience by making analysis ridiculously fast and efficient using a more cost-effective and flexible architecture. Thousands of IT professionals rely on Graylog’s scalability, comprehensive access to complete data, and exceptional user experience to solve security, compliance, operational, and DevOps issues every day. Purpose-built for modern log analytics, Graylog removes complexity from data exploration, compliance audits, and threat hunting so you can quickly and easily find meaning in data and take action faster.
+  </Description>
+  <Overview>
+  Centralized log management solution built to open standards for capturing, storing, and enabling real-time analysis of terabytes of machine data.
+  </Overview>
+  <Support></Support>
+  <Registry>https://hub.docker.com/r/graylog2/server/</Registry>
+  <GitHub>https://github.com/Graylog2/graylog2-server</GitHub>
+  <Repository>graylog/graylog:2.5.2-1</Repository>
+  <Project>https://www.graylog.org/</Project>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>9000</HostPort>
+        <ContainerPort>9000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+  </Environment>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/graylog</HostDir>
+      <ContainerDir>/usr/share/graylog/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/graylog/server</HostDir>
+      <ContainerDir>/etc/graylog/server</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:9000]/</WebUI>
+  <Banner></Banner>
+  <Icon>https://raw.githubusercontent.com/MacroPower/docker-templates/master/macropower/images/graylog2.png</Icon>
+  <DonateText></DonateText>
+  <DonateLink></DonateLink>
+  <DonateImg></DonateImg>
+  <ExtraParams></ExtraParams>
+</Containers>
