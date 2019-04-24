@@ -5,6 +5,7 @@
   <Category>Backup</Category>
   <Name>UrBackup</Name>
   <Description>
+[span style='color: #E80000;']You must click Advanced and set up DNS.[/span][br]
 [h3]UrBackup[/h3]UrBackup is an easy to setup Open Source client/server backup system, that through a combination of image and file backups accomplishes both data safety and a fast restoration time.
 [br]File and image backups are made while the system is running without interrupting current processes.
 [br]UrBackup also continuously watches folders you want backed up in order to quickly find differences to previous backups. Because of that, incremental file backups are really fast.
@@ -59,5 +60,5 @@
   <DonateText></DonateText>
   <DonateLink></DonateLink>
   <DonateImg></DonateImg>
-  <ExtraParams>--hostname "YOUR USERNAME HERE"</ExtraParams>
+  <ExtraParams>--dns "YOUR DNS SERVER" --dns-search "YOUR LOCAL DOMAIN"</ExtraParams>
 </Containers>
